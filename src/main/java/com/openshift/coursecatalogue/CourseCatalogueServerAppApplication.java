@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class CourseCatalogueServerAppApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
-		System.setProperty("server.servlet.context-path", "/");
+		//System.setProperty("server.servlet.context-path", "/");
 		SpringApplication.run(CourseCatalogueServerAppApplication.class, args);
 	}
 	/*
